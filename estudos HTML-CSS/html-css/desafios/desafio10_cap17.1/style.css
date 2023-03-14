@@ -1,0 +1,202 @@
+@charset "UFT-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300&display=swap');
+
+@font-face {
+    font-family:aquire font;
+    src: url(aquire-font/AquireBold-8Ma60.otf)
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+	--cor0: #063d1e;
+    --cor1: #41D983;
+	--cor2: #96FBC2;
+	--cor3: #4BFA97;
+	--cor4: #497A5F;
+	--cor5: #49a55b;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+
+body {
+    background-color: #ebe5c5
+}
+
+header{
+    background-image: linear-gradient(to bottom, #063d1e, #1a5c37, #2fa866, #3ddc84);
+    padding: 40px;
+    text-align: center;
+    padding-top: 40px;
+    min-height: 150px;
+
+
+}
+
+
+p#subtitulo_princ {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 0px black;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1#titulo {
+    color: white;
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 1px 5px black;
+    font-size: 3em;
+}
+
+nav {
+    background-image: linear-gradient(to right,#3ddc84, #2fa866, #1a5c37,  #063d1e );
+    padding: 10px;
+    display: block;
+    box-shadow:  7px 7px rgb(0 0 0 / 19%)
+}
+
+nav > a {
+    color:#007735;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+nav > a:hover {
+    background-image: linear-gradient(to right, green, blue);
+}
+
+#subtitulo_Sec {
+    font-family: var;
+    color:#063d1e;
+    font-weight: normal;
+    font-size: 1.5em;
+
+}
+
+main {
+    min-width:300px;
+    max-width:1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+    
+
+main > img.bugdroid {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.video {
+    background-color: var(--cor5);
+}
+
+
+
+
+.subtitulo_terciario {
+    font-family: aquire font;
+    color:#063d1e;
+    font-weight: normal;
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, green, #3ddc84);
+} 
+
+.externo {
+    background-color:#83e1ad;
+    text-decoration: none;
+    color:#1a5c37;
+} 
+
+
+#video > iframe {
+    margin: 0 auto;
+    width: 500px auto;
+}
+
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+aside > ul {
+    list-style-type:'\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+h3#texto_principal {
+    font-size: 1.6em;
+    color: white;
+    background-color: rgb(0, 106, 53);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+#rodapé {
+    text-align: center;
+    display: block;
+    margin: 10px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    background-color: #063d1e;
+    padding: 5px;
+    color: white;
+    font-size: 0.8em;
+
+}
+
+#CVlink {
+    color: white;
+    text-decoration: none;
+}
+#CVlink:hover {
+    text-decoration: underline;
+
+}
+#meuinsta {
+    color: white;
+    text-decoration: none;
+}
+
+#meuinsta:hover {
+    text-decoration: underline;
+}
