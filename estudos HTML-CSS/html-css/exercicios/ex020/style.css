@@ -54,7 +54,7 @@ div:hover {
 }
 
 .botao {
-    cursor: pointer;
+    cursor:pointer;
     width: 25%;
     border: 2px solid black;
     border-radius: 5px;
