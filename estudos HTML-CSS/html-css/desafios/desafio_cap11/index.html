@@ -11,29 +11,47 @@
         body {
             background-color: brown;
         }
-        h1 {text-align: center;}
-        p {text-align: center;}
-        div {text-align: center;}
+
+        main {
+            background-color: white;
+            width: 70%;
+            padding: 10px;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.39);
+
+        }
+
+        div.centralizar_div {
+            text-align: center;
+            align-items: center;
+        }
+
+
     </style>
 </head>
 <body>
-    <h1>Cursos do canal curso em video </h1>
-    <tr>
-        <td>
-            <a href="cursohtml.html" rel="next" target="_self"><img src="imagens/html-560.png" alt="cursohtml.html"></a>
-        </td>
+    <main>
 
-        <td>
-            <a href="cursojs.html" rel="next" target="_self"><img src="imagens/JS-560.png" alt="js.png"></a>
-        </td>
+        <div class="centralizar_div">
+            <h1>Cursos do canal curso em video </h1>
+        </div>
 
-        <td>
-            <a href="hardware.html" rel="next" target="_self"><img src="imagens/hardware-560.png" alt="hardware.png"></a>
-        </td>
+        <div class="centralizar_div">
+            <!---curso html-->
+            <a href="cursohtml.html" rel="next" target="_self"><img src="imagens/html-300.png" alt="cursohtml.html"></a>
 
-        <td>
-            <a href="cursopython.html" rel="next" target="_self"><img src="imagens/python-560.png" alt="python.png"></a>
-        </td>
-    </tr>
+            <!--curso javascript-->
+            <a href="cursojs.html" rel="next" target="_self"><img src="imagens/JS-300.png" alt="js.png"></a>
+
+            <!--curso hardware-->
+            <a href="hardware.html" rel="next" target="_self"><img src="imagens/hardware-300.png" alt="hardware.png"></a>
+
+            <!--curso python-->
+            <a href="cursopython.html" rel="next" target="_self"><img src="imagens/python-300.png" alt="python.png"></a>
+        </div>
+
+
+    </main>
 </body>
 </html>
