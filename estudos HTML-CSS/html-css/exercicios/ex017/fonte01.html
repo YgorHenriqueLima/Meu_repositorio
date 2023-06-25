@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         body {
             /*medidas absolutas
             cm(centímetro), mm(milimetro), in(polegada), px(pixel), pt(ponto), pc(apaica)*/
@@ -14,11 +15,13 @@
 
             /*16px geralmente é = 1em*/
 
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Work Sans', sans-serif;
+
             background-image: linear-gradient(to right, yellow, orange);
 
-            font-size: 16px;
-           
+            font-weight: 500;
+            font-size: 1em;
+            font-style:italic;
 
             /*weight(peso), width(largura) e height(altura*/
 
@@ -36,21 +39,23 @@
 
         }
         h1 {
+            /*
             
-            /*shorthand font
+            shorthand font
+            
+            - font-style -> font-weight -> font size -> font-family
 
-            font-weight: normal;
             font-style: italic;
-            text-decoration: underline;
+            font-weight: normal;
+            font-size: 1em;
+            font-family: 'Work sans', sans-serif;
+            
+            */
 
-            - font-style -> font-weight -> font size -> font-family*/
 
-            font: italic bolder 3em sans-serif;
+            font: italic bold 2em 'Work sans', sans-serif;
         }
     </style>
-    <script>
-        
-    </script>
     <title>Tipografia</title>
 </head>
 <body>
@@ -63,6 +68,8 @@
         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore dolor impedit animi dolorum aperiam esse similique. Laudantium uptatibus, ut tempore minima reprehenderit assumenda dolor adipisci non repellendus illo! Illum, doloremque?
         <h2>subtitulo do exercicio</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, necessitatibus dolorem officiis quisquam quaerat, perferendis ipsum doloribus tenetur beatae modi iusto qui velit, rem iste! Odio similique officia sapiente minus?</p>
+
+        <p>acesse a segunda página <a href="fonte02.html">aqui</a></p>
     </main>
 </body>
 </html>
